@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+
+body {
+    background-image: url(../images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffb703;
+}
+
+p {
+    color: #fafafa;
+}
+
+strong {
+    color: #ffb703;
+    font-size: 16px;
+}
+
+.nav-style {
+    background-color: #0A122A;
+    color: #fafafa;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.hero-text {
+    position: absolute;
+    text-align: left;
+    top: 45%;
+    left: 30%;
+    margin-left: 10%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lato';
+    
+    color: #fafafa;
+    text-shadow: 0px 4px 4px #330000;
+}
+
+.hero-text h1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.hero-text h3 {
+    font-size: 62px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  background-color: #0A122A;           
+  color: #fafafa;
+  left: 0;
+}
+
+.social {
+    padding-right: 25px;
+    color: #fafafa;
+}
+
+/*----contact page layout-----*/
+
+.contact-heading {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5%;
+}
+.center-form {
+    font-weight: bold;
+    padding-top: 30px;
+    margin: auto;
+    max-width: 70%;
+}
+
+.button {
+    padding-top: 30px;
+    
+}
+
+/*-----Resume page layout---*/
+
+.about-page {
+    position: absolute;
+    padding-top: 10%;
+}
+
+/*-----portfolio page layout----*/
+
+.portfolio-page {
+    padding-top: 10%;
+    text-align: center;
+
+}
+
+.portfolio-heading {
+    position: relative;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #0A122A;
+}
+
+.project {
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
