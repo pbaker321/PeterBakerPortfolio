@@ -77,6 +77,10 @@ strong {
     color: #fafafa;
 }
 
+.social-links li a i:hover {
+    background: #ffb703;
+}
+
 /*----contact page layout-----*/
 
 .contact-heading {
@@ -96,11 +100,17 @@ strong {
     
 }
 
-/*-----Resume page layout---*/
+/*-----about page layout---*/
 
 .about-page {
     position: absolute;
     padding-top: 10%;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
 }
 
 /*-----portfolio page layout----*/

@@ -36,6 +36,12 @@ I used a number of sources to help with coding. Some through websites and some t
 Websites used
 
 - W3schools.com
-- bootstrap
-- CSStricks
+- https://getbootstrap.com/
 - https://coolors.co/
+- https://www.freecodecamp.org/
+
+## Problems
+
+I occured many problems on this project, i eventually had to restart again as i couldnt find where and how my problems had started. I started a new repository, and copied over the main bits of code that i needed. in doing this i found that i was still leaving in code that i no longer needed and this was causing a lot of my problems.
+
+The original repository can be found here https://peach-cow-zx3ddds8.ws-eu03.gitpod.io/#/workspace/portfolio
