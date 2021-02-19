@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+/*------generic stylings, hover--------*/
 
 h1,
 h2,
@@ -26,10 +27,36 @@ strong {
     font-size: 16px;
 }
 
+.active {
+    color: #ffb703;
+}
+
+a:hover {
+  color: #ffb703;
+}
+
+button:hover {
+    color: #0A122A;
+}
+/*----nav------*/
+
+.navbar-toggler {
+    color: #fafafa;
+}
+.nav-style:hover {
+    color: #ffb703;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fafafa;
+}
+
 .nav-style {
     background-color: #0A122A;
     color: #fafafa;
 }
+/*------Generic page layout for background-------*/
 
 #page-container {
   position: relative;
@@ -39,6 +66,7 @@ strong {
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
+/*-----Landing Page-------*/
 
 .hero-text {
     position: absolute;
@@ -61,6 +89,8 @@ strong {
 .hero-text h3 {
     font-size: 62px;
 }
+
+/*----Footer----*/
 
 #footer {
   position: absolute;
@@ -94,10 +124,12 @@ strong {
     margin: auto;
     max-width: 70%;
 }
-
-.button {
-    padding-top: 30px;
-    
+ 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #ffb703;
 }
 
 /*-----about page layout---*/
@@ -135,4 +167,34 @@ strong {
     margin-top: 30px;
     padding-bottom: 50px;
     border-radius: 30px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    left: 1084px;
+    top: 133px;
+
+    border: 0.978125px solid #fafafa;
+    box-sizing: border-box;
+    box-shadow: 0px 3.9125px 3.9125px 9.78125px rgba(132, 147, 235, 0.247);
+    border-radius: 156.5px;
+}
+
+/*-----media query-----*/
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
+
+@media(min-width: 992px) {
+    .portfolio-page {
+        margin: auto;
+        max-width: 50%;
+    }
 }
