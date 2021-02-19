@@ -43,9 +43,6 @@ button:hover {
 .navbar-toggler {
     color: #fafafa;
 }
-.nav-style:hover {
-    color: #ffb703;
-}
 
 .nav-link,
 .navbar-brand {
@@ -55,7 +52,14 @@ button:hover {
 .nav-style {
     background-color: #0A122A;
     color: #fafafa;
+    transition: all 0.4s ease-out;
 }
+
+.nav-style:hover {
+    color: #ffb703;
+    transition: all 0.3s ease-out;
+}
+
 /*------Generic page layout for background-------*/
 
 #page-container {
@@ -150,8 +154,6 @@ button[type="submit"] {
 /*-----portfolio page layout----*/
 
 .portfolio-page {
-    position: relative;
-    padding-top: 10%;
     text-align: center;
 
 }
@@ -161,7 +163,6 @@ button[type="submit"] {
     font-size: 75px;
     font-weight: 700;
     text-shadow: 2px 2px 5px #0A122A;
-    padding-top: 10%;
 }
 
 .project {
@@ -181,12 +182,15 @@ button[type="submit"] {
     box-sizing: border-box;
     box-shadow: 0px 3.9125px 3.9125px 9.78125px rgba(132, 147, 235, 0.247);
     border-radius: 156.5px;
+    transition: all 0.4s ease-out;
 }
 
 .profile:hover {
-    transition: ease-in-out 0.3s;
+  backface-visibility: hidden;
+  transform: scale(1.15, 1.15);
+  opacity: 1;
+  transition: all 0.3s ease-out;
 }
-
 /*-----media query-----*/
 
 @media(min-width: 992px) {
