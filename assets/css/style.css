@@ -27,7 +27,7 @@ strong {
     font-size: 16px;
 }
 
-.active {
+.active a{
     color: #ffb703;
 }
 
@@ -178,7 +178,7 @@ button[type="submit"] {
     left: 1084px;
     top: 133px;
 
-    border: 0.978125px solid #fafafa;
+    border: 0.05px solid #fafafa;
     box-sizing: border-box;
     box-shadow: 0px 3.9125px 3.9125px 9.78125px rgba(132, 147, 235, 0.247);
     border-radius: 156.5px;
