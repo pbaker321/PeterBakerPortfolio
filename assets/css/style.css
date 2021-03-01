@@ -16,7 +16,7 @@ body {
 .overlay {
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
   z-index: -9999;
@@ -24,7 +24,26 @@ body {
 
 /*------generic stylings, hover--------*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fcbf49;
+}
 
+p {
+    color: #fafafa;
+}
+
+strong {
+    color: #fcbf49;
+}
+
+.landing-text {
+    font-weight: bold;
+}
 /*----Footer----*/
 
 .footer-basic {
@@ -33,10 +52,15 @@ body {
   height:60px; 
 }
 
+.footer-basic,
 .social {
+    text-align: center;
+    color: #fafafa;
+}
+
+.social a{
     color: #fafafa;
 }
 
 
 /*----contact page layout-----*/
-
