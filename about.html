@@ -23,46 +23,61 @@
 <!--BODY-->
 
 <body>
-    
+
+<!--OVERLAY-->
+
+    <div class="overlay"></div>
+
 <!--NAVIGATION-->
 
-    <nav class="navbar navbar-expand-md navbar-dark nav-style fixed-top">
-        <a class="navbar-brand" href="index.html">Peter Baker</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" 
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggle">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="../cv/CV.docx">CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Peter Baker</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="project.html">Projects</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+          </div>
+        </ul>
+      </div>
     </nav>
 
 <!--ABOUT ME PAGE-->
 
-    <div class="container mt-5 p-5">
+    <div class="container mt-5 mb-5 p-5">
         <section>
 
 <!--WRITTEN INFORMATION-->
 
             <div class="row mt-5">
                 <div class="col-sm-6">
-                    <h3>About Me</h3>
+                    <h2>About Me</h2>
                     <p> Having began my studies in Art & Design in 1996, 
                         I worked in hospitality to pay for college. I also studied Photography for 2 years.
                         After college i continued to work the hospitality sector
@@ -70,7 +85,7 @@
                     </p>
                 </div>
                 <div class="col-sm-6">
-                    <h3>Additional Skills</h3>
+                    <h2>Additional Skills</h2>
                     <p>Being a chef requires more than cooking. It requires organisation, creativity, working as a team and always looking beyond the bounderies of your enviroment.
                         I continued to use my art & photography as hobby but now it has become a key tool in my new proffesion.
 
@@ -82,8 +97,8 @@
         <section>
     
             <div class="row mt-5">
-                <div class="col-sm-6">
-                    <h3 class="section-heading uppercase">My Skills</h3>
+                <div class="col-sm-8">
+                    <h2>My Skills</h2>
 
 <!--PROGRESS BAR-->
                 
@@ -107,8 +122,10 @@
 
 <!--PROFILE IMAGE-->
 
-                <div class="col-sm-6">
-                    <img src="../assets/images/IMG_20210205_110732.jpg" class="rounded-circle mx-auto d-block profile" height="200" width="200" alt="Peter Baker">
+                <div class="col-sm-4">
+                    <h2 class="cv-download">Download CV</h2>
+                    <p>My CV is available to download here.</p>
+                    <a target="_blank" href="#"><i class="fa fa-download cv-icon" aria-hidden="true"></i></a>
                 </div>
 
             </div>    
@@ -118,7 +135,7 @@
 
 <!--FOOTER-->
 
-    <div class="footer-basic fixed-bottom">
+    <div class="container-fluid footer-basic">
         <footer>
             <div class="social">
                 <a target="_blank" href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
@@ -129,14 +146,16 @@
             <p class="copyright">Peter Baker Copyright 2021</p>
         </footer>
     </div>
+  
     
-</body>
-
 <!--SCRIPT-->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/ad3578afcd.js"></script>
+
+</body>
+
 
 </html>
