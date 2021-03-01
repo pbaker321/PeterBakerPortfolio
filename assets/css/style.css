@@ -44,6 +44,11 @@ strong {
 .landing-text {
     font-weight: bold;
 }
+
+.nav-style {
+    background-color: #000000;
+    color: #fafafa;
+}
 /*----Footer----*/
 
 .footer-basic {
@@ -64,3 +69,26 @@ strong {
 
 
 /*----contact page layout-----*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #fcbf49;
+}
+
+/*-----MEDIA-----*/
+
+@media(min-width: 992px) {
+    .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
