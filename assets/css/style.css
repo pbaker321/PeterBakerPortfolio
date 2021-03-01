@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
 
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background-image: url(../images/black-background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
 }
 /*------generic stylings, hover--------*/
 
@@ -96,7 +103,6 @@ button:hover {
     background-color:#0A122A;
     color:#fafafa;
     max-height: 80px;
-    bottom: 0;
 }
 
 .footer-basic .social {
