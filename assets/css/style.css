@@ -93,7 +93,12 @@ button[type="submit"] {
     background-color: #fcbf49;
 }
 
+/*----- ABOUT -----*/
 
+.cv-link a{
+    color: #fafafa;
+    font-size: 2rem;
+}
 
 /*-----MEDIA-----*/
 
