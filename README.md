@@ -46,14 +46,14 @@ The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF
 - Navigation Bar. Easily navigate to pages. Page is marked as active.
 - Footer. Links to social media.
 - Portfolio Page. Links to both the deployed site and to the repository
-- Contact Form. 
+- Contact Form. (Not Fully Functioning)
 - Downloadable CV. Opens in a separate Tab.
 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Functioning Contact form.
+- Photography Portfolio.
 
 ## Technologies Used
 
@@ -85,12 +85,18 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+How I deplyed my first milestone project
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- Go to [Github](https://github.com/)
+- Log into my account.
+- Click on repositories.
+- Click on Peter Baker Portfolio.
+- Select settings.
+- Scroll down to Github pages.
+- Under source click "none" and select "Master Branch".
+- Click save.
+
+
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
@@ -98,10 +104,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The Background image used in this site was obtained from  [Freepik](https://www.freepik.com/)
+
 
 ### Acknowledgements
 

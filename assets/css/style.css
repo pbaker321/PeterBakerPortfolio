@@ -63,7 +63,8 @@ strong {
     color: #fafafa;
 }
 
-.social a{
+.social i{
+    padding: 0 10px;
     color: #fafafa;
 }
 
@@ -82,6 +83,8 @@ button[type="submit"] {
     background-color: #fcbf49;
 }
 
+
+
 /*-----MEDIA-----*/
 
 @media(min-width: 992px) {
@@ -92,3 +95,4 @@ button[type="submit"] {
     max-width: 50%;
 }
 }
+
