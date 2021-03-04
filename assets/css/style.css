@@ -3,23 +3,23 @@
 
 
 body {
-     background: url('../images/black-background.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+     background: url('../images/background-black.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .overlay {
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.3);
-  position: fixed;
-  top: 0;
-  z-index: -9999;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: -9999;
 }
 
 /*------generic stylings, hover--------*/
@@ -100,6 +100,9 @@ button[type="submit"] {
     font-size: 2rem;
 }
 
+/*----- PROJECT PAGE -----*/
+
+
 /*-----MEDIA-----*/
 
 @media(max-width: 500px) {
@@ -118,5 +121,11 @@ button[type="submit"] {
     .landing h2{
         font-size: 3rem;
     }
+
+    body {
+        background-color: black;
+    }
 }
+
+
 
