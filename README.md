@@ -59,13 +59,28 @@ The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [bootstrap4](https://getbootstrap.com/) - Layout & Responsiveness.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content & Structure.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling.
+- [Github](https://github.com/) - Hosting the site.
+- [Gitpod](https://www.gitpod.io/) - Developing the site.
+- [Freepix](https://www.freepik.com/) - Images.
+- [Fontawesome](https://fontawesome.com/v4.7.0/icons/) - Icons.
+- [Googlefonts](https://fonts.google.com/) - Fonts.
+- [TinyPNG](https://tinypng.com/) - Compressing Images.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Code Validator
+
+- [HTML Validator](https://validator.w3.org/)
+
+No Issues detected.
+
+- [CSS Validator]()
+
+
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 

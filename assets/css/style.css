@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
 
 
+/*----- Background -----*/
 
 body {
-     background: url('../images/background-black.jpg') no-repeat center center fixed;
+    background: url('../images/background-black.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -41,9 +42,7 @@ strong {
     color: #fcbf49;
 }
 
-.landing-text {
-    font-weight: bold;
-}
+/*----- Navigation -----*/
 
 .nav-style {
     background-color: #000000;
@@ -52,9 +51,9 @@ strong {
 /*----Footer----*/
 
 .footer-basic {
-  margin-top: auto;
-  width:100%;
-  height:60px; 
+    margin-top: auto;
+    width:100%;
+    height:60px; 
 }
 
 .footer-basic,
@@ -108,10 +107,10 @@ button[type="submit"] {
 @media(max-width: 500px) {
 
     .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 75%;
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 75%;
 }
 
     .landing h1{
@@ -122,9 +121,6 @@ button[type="submit"] {
         font-size: 3rem;
     }
 
-    body {
-        background-color: black;
-    }
 }
 
 
