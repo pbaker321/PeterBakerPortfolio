@@ -79,6 +79,10 @@ strong {
     font-size: 5rem;
     text-align: center;
 }
+
+.landing-text a{
+    color: #fafafa;
+}
 /*----contact page layout-----*/
 
 .center-form {
