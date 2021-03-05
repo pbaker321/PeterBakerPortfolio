@@ -78,7 +78,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 No Issues detected.
 
-- [CSS Validator]()
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 
 
@@ -118,13 +118,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
-- 
-
 ### Media
+
 - The Background image used in this site was obtained from  [Freepik](https://www.freepik.com/)
 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- My mentor Precious Ijege 
+- [Thiago Hardt]() For advice
