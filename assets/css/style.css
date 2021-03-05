@@ -25,6 +25,7 @@ body {
 .body{
     font-family: 'Roboto', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -95,7 +96,7 @@ button[type="submit"] {
 /*----- ABOUT -----*/
 
 .cv-link a{
-    color: #fafafa;
+    color: #fcbf49;
     font-size: 2rem;
 }
 

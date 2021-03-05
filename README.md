@@ -1,3 +1,5 @@
+![2021-03-05 (5)](https://user-images.githubusercontent.com/75320149/110158530-65904780-7de1-11eb-99df-90e919f661fd.png)
+
 # Peter Baker Portfolio Project
 
 
@@ -75,34 +77,30 @@ In this section, you should mention all of the languages, frameworks, libraries,
 ### Code Validator
 
 - [HTML Validator](https://validator.w3.org/)
+![html-check](https://user-images.githubusercontent.com/75320149/110157678-62488c00-7de0-11eb-97ca-b370686af533.png)
 
 No Issues detected.
 
+
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+![css-check](https://user-images.githubusercontent.com/75320149/110157604-48a74480-7de0-11eb-83e5-d4e2a3ea1191.png)
 
+No Issues detected.
 
+Tested on different Browsers.
 
+|   | Chrome  | Mozilla | Opera  | Edge |
+|---|   ---   |   ---   |   ---  |  --- |
+| Links |Good |  Good   |Good    |Good  |
+| Images|Good | Good    |Good    |Good    |
+| Renders as expected|  Good  |  Good  | Good   | Good   |
 
+Responsiveness was tested using [Chrome developer tools.](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker.](https://www.responsivedesignchecker.com)
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-How I deplyed my first milestone project
+#### How I deployed my first milestone project
 
 - Go to [Github](https://github.com/)
 - Log into my account.
@@ -113,9 +111,16 @@ How I deplyed my first milestone project
 - Under source click "none" and select "Master Branch".
 - Click save.
 
+#### How to run the code locally.
 
+1. On [Github](https://github.com/), navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. Copy the URL on HTTPS by clicking the clipboard.
+4. In your IDE of choice, open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL copied from [Github](https://github.com/).
+7. Press enter and the local clone will be created.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
 ## Credits
@@ -124,8 +129,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - The Background image used in this site was obtained from  [Freepik](https://www.freepik.com/)
 
+### Contents
+
+- Navigation using [bootstrap4.](https://getbootstrap.com/)
+- Contact Form using [bootstrap4.](https://getbootstrap.com/)
 
 ### Acknowledgements
 
 - My mentor Precious Ijege 
-- [Thiago Hardt]() For advice
+- [Thiago Hardt](https://github.com/ThiagoHardt) For all the patience and advice.
