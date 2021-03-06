@@ -89,11 +89,11 @@ No Issues detected.
 
 Tested on different Browsers.
 
-|   | Chrome  | Mozilla | Opera  | Edge |
-|---|   ---   |   ---   |   ---  |  --- |
-| Links |Good |  Good   |Good    |Good  |
-| Images|Good | Good    |Good    |Good    |
-| Renders as expected|  Good  |  Good  | Good   | Good   |
+**Test**|**Chrome**|**Mozilla**|**Opera**|**Edge**
+:-----:|:-----:|:-----:|:-----:|:-----:
+Links|Good|Good|Good|Good
+Images|Good|Good|Good|Good
+Renders|Good|Good|Good|Good
 
 Responsiveness was tested using [Chrome developer tools.](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker.](https://www.responsivedesignchecker.com)
 
