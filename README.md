@@ -97,6 +97,13 @@ Tested on different Browsers.
 
 Responsiveness was tested using [Chrome developer tools.](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker.](https://www.responsivedesignchecker.com)
 
+**Responsiveness**|**Landing**|**About**|**Projects**|**Contact**
+:-----:|:-----:|:-----:|:-----:|:-----:
+Desktop <1200px|Good|Good|Good|Good
+ipad Pro|Good|Good|Good|Good
+ipad|Good|Good|Good|Good
+iphone x|Good|Good|Good|Good
+iphone 5/SE|Good|Good|Good|Good
 
 ## Deployment
 
