@@ -80,6 +80,10 @@ strong {
     text-align: center;
 }
 
+.landing-text {
+    text-align: center;
+}
+
 .landing-text a{
     color: #fafafa;
 }
@@ -115,7 +119,7 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 75%;
+        max-width: 80%;
 }
 
     .landing h1{

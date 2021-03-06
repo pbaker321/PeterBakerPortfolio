@@ -76,16 +76,22 @@
 
         <div class="center-form">
             <form>
-                <input type="text" name="first-name" id="fname" class="form-control mt-2" placeholder="First Name" required/>
-                <input type="text" name="last-name" id="lname" class="form-control mt-2" placeholder="Last Name" required/>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>    
+                </div>
                 <input type="email" name="email" id="emailaddress" class="form-control mt-2" placeholder="Email" required/>
                 <input type="text" name="company" id="company" class="form-control mt-2" placeholder="Company" required/>
                     <textarea rows="6" name="project" id="project" class="form-control mt-2" placeholder="Project Description" required></textarea>
-                        <div class="form-row text-center">
-                            <div class="col button mt-5 mb-5">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
-                            </div>
+                    <div class="form-row text-center">
+                        <div class="col button mt-5 mb-5">
+                            <button type="submit" class="btn btn-secondary">Send Project Request</button>
                         </div>
+                    </div>
             </form>
         </div>
    
