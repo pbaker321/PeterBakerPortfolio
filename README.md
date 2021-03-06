@@ -3,9 +3,9 @@
 # Peter Baker Portfolio Project
 
 
-This is my First Milestone project for the CodeInstitute. The aim is to create a personal portfolio using the skills i have learnt up to this point. The website will showcase the developers skills and creativity.
+This is my First Milestone project for the [Code Institute](https://codeinstitute.net/). The aim is to create a personal portfolio using the skills i have learnt up to this point. The website will showcase the developers skills and creativity.
 
-The deployed site can be seen here.
+The deployed site can be seen [here.](https://pbaker321.github.io/PeterBakerPortfolio/)
 
 
 ## UX
