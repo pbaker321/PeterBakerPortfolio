@@ -2,11 +2,13 @@
 
 # Peter Baker Portfolio Project
 
+---
 
 This is my First Milestone project for the [Code Institute](https://codeinstitute.net/). The aim is to create a personal portfolio using the skills i have learnt up to this point. The website will showcase the developers skills and creativity.
 
 The deployed site can be seen [here.](https://pbaker321.github.io/PeterBakerPortfolio/)
 
+---
 
 ## UX
  
@@ -37,6 +39,7 @@ The Website will consist of 4 pages and a link to the developers CV.
 
 The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF3i0Rj/Portfolio)
 
+---
 
 ## Features
 
@@ -63,6 +66,7 @@ The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF
         - A form to contact the developer for future projects or employment.
 
 ### Existing Features:
+
 - Navigation Bar. Easily navigate to pages. Page is marked as active.
 - Footer. Links to social media.
 - Portfolio Page. Links to both the deployed site and to the repository
@@ -74,10 +78,9 @@ The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF
 ### Features Left to Implement
 - Functioning Contact form.
 - Photography Portfolio.
+- Real CV
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [bootstrap4](https://getbootstrap.com/) - Layout & Responsiveness.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content & Structure.
@@ -89,6 +92,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Googlefonts](https://fonts.google.com/) - Fonts.
 - [TinyPNG](https://tinypng.com/) - Compressing Images.
 
+----
 
 ## Testing
 
@@ -123,7 +127,7 @@ ipad|Good|Good|Good|Good
 iphone x|Good|Good|Good|Good
 iphone 5/SE|Good|Good|Good|Good
 
-## User Stories Testing.
+### User Stories Testing.
 
 1. As a User I want a clean but visually striking website, absent of clutter and unnescerarry clutter.
     - Landing page, tells the User who is the developer.
@@ -176,23 +180,26 @@ And the breakpoints were at the wrong places.
 3. Images. Images wouldnt show after i deployed the site. 
     - I adjusted the file route.
 
-
+---
 
 ## Deployment
 
-#### How I deployed my first milestone project
+### How I deployed my first milestone project
 
 - Go to [Github](https://github.com/)
 - Log into my account.
 - Click on repositories.
 - Click on Peter Baker Portfolio.
 - Select settings.
+![2021-03-08 (2)](https://user-images.githubusercontent.com/75320149/110332231-ff413a00-8017-11eb-804d-8d917c021bd3.png)
 - Scroll down to Github pages section.
 - Under source click "none" and select "Master Branch".
+![2021-03-08 (3)](https://user-images.githubusercontent.com/75320149/110332253-05371b00-8018-11eb-951f-04a56ba10a7d.png)
 - Click save.
 - Scroll back to the Github pages section and the link to the deployed site is there.
 
-#### How to run the code locally.
+
+### How to run the code locally.
 
 1. On [Github](https://github.com/), navigate to the main page of the repository.
 2. Above the list of files, click Code.
@@ -202,7 +209,7 @@ And the breakpoints were at the wrong places.
 6. Type git clone, and then paste the URL copied from [Github](https://github.com/).
 7. Press enter and the local clone will be created.
 
-
+---
 
 ## Credits
 
