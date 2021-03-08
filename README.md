@@ -15,18 +15,23 @@ This a beginner full stack developer website. The aim of the site is to promote 
 This is a fully responsive website. Which can be used on many platforms and browsers.
 
 ### The target audience for the website.
+
 - Potential Employers
 - Users looking for help with websites
 - Other developers looking for help with current projects
 
-### As a Visitor
+### User Stories
 
-- To easily understand what the page is about.
-- To straight away visually see what the developer is capable of.
-- To be able to navigate my way through the website and easily return to previously visited pages without using the back key.
-- To be able to see and download the developers CV without leaving the site.
-- To be able to view the developers projects to date.
-- To be able to contact the developer and give as much information as needed.
+- As a User I want a clean but visually striking website, absent of clutter and unnescerarry clutter.
+- As a User I want to see straight away visually see what the developer is capable of.
+- As a User I want to learn a little bit about the developer.
+- As a User I want to know what level of skills the developer has.
+- As a User I want to be able to navigate my way through the site without using the back key.
+- As a user I want to be able to see and download the developers CV.
+- As a User I want to be able to see the developers previous projects.
+- As a User I want to be able to see the developers repositories.
+- As a User I want to be able to contact the developer.
+- As a User I want to be able to go to the developers social media.
 
 The Website will consist of 4 pages and a link to the developers CV.
 
@@ -38,18 +43,31 @@ The wireframes can be found [here.](https://www.figma.com/file/SYpJ97bFEnBfiS0DF
 
 ### There will be:
  
-4 pages consisting of:
-- Home/Landing page. Striking landing page to gain the users attention.
-- About. Information about the developer. Developers skills link to CV.
-- Portfolio. A summary about previous projects.  
-- Contact. A form to contact the developer for future projects or employment.
+- 4 pages consisting of:
+    1. Home/Landing page. 
+        - Striking landing page to gain the users attention.
+
+    2.  About. 
+        - Information about the developer. 
+        - Developers skills. 
+        - link to CV.
+
+    3. Portfolio. 
+        - An Image of the project.
+        - A summary about previous projects.
+        - Links to deployed site.
+        - Links to project repositories.
+        - What Technologies were used for the projects.
+
+    4. Contact. 
+        - A form to contact the developer for future projects or employment.
 
 ### Existing Features:
 - Navigation Bar. Easily navigate to pages. Page is marked as active.
 - Footer. Links to social media.
 - Portfolio Page. Links to both the deployed site and to the repository
 - Contact Form. (Not Fully Functioning)
-- Downloadable CV. Opens in a separate Tab.
+- Downloadable CV. Opens in a separate Tab. (Mock CV)
 
 
 
@@ -105,6 +123,61 @@ ipad|Good|Good|Good|Good
 iphone x|Good|Good|Good|Good
 iphone 5/SE|Good|Good|Good|Good
 
+## User Stories Testing.
+
+1. As a User I want a clean but visually striking website, absent of clutter and unnescerarry clutter.
+    - Landing page, tells the User who is the developer.
+    - Background iamge and colors draw in the User.
+    
+2. As a User I want to see straight away visually see what the developer is capable of.
+    - Using an interesting background.
+    - Background doesnt ditract the User.
+    - Good colors, allow it to visually pleasing to the eye.
+
+3. As a User I want to learn a little bit about the developer.
+    - Home page has a very brief about me.
+    - About page gives more information.
+    - Reasons given to why the developer should be hired.
+    - Link to the CV for full information.
+
+4. As a User I want to know what level of skills the developer has.
+    - Progress bar names the skills and the level of knowledge the developer has.
+
+5. As a User I want to be able to navigate my way through the site without using the back key.
+    - Navigation bar will bring the user to the required page.
+    - Navigation bar will turn into the "hambrger icon" when using on handheld devices.
+
+6. As a user I want to be able to see and download the developers CV.
+    - Downloadable link on the About page.
+    - Link has an download icon, as to be clear of its function.
+
+7. As a User I want to be able to see the developers previous projects.
+    - A button clearly labelled to github under the required project.
+
+8. As a User I want to be able to see the developers repositories.
+    - A button clearly labelled to github under the required project.
+
+9. As a User I want to be able to contact the developer.
+    - There is a contact page 
+    - An easy to use form asking for relevant Information.
+    - Any missing Information, the form will not submit and the required field will be flagged.
+
+10. As a User I want to be able to go to the developers social media.
+
+### Bugs
+
+1. Project page. When looking at responsiveness, the images wouldnt line up properly. 
+And the breakpoints were at the wrong places.
+    - Used bootstrap for the columns breakpoint. 
+
+2. Footer. I was unable to get the footer to stay at the bottom of all pages.
+    - On CSS I changed the min-height on body to 100vh.
+
+3. Images. Images wouldnt show after i deployed the site. 
+    - I adjusted the file route.
+
+
+
 ## Deployment
 
 #### How I deployed my first milestone project
@@ -114,9 +187,10 @@ iphone 5/SE|Good|Good|Good|Good
 - Click on repositories.
 - Click on Peter Baker Portfolio.
 - Select settings.
-- Scroll down to Github pages.
+- Scroll down to Github pages section.
 - Under source click "none" and select "Master Branch".
 - Click save.
+- Scroll back to the Github pages section and the link to the deployed site is there.
 
 #### How to run the code locally.
 

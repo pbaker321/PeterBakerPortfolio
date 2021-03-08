@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /*----- Background -----*/
 
 body {
@@ -22,6 +23,7 @@ body {
 }
 
 /*------generic stylings, hover--------*/
+
 .body{
     font-family: 'Roboto', sans-serif;
 }
@@ -49,6 +51,7 @@ strong {
     background-color: #000000;
     color: #fafafa;
 }
+
 /*----Footer----*/
 
 .footer-basic {
@@ -87,6 +90,7 @@ strong {
 .landing-text a{
     color: #fafafa;
 }
+
 /*----contact page layout-----*/
 
 .center-form {
