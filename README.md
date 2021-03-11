@@ -145,7 +145,7 @@ iphone 5/SE|Good|Good|Good|Good
     - Link to the CV for full information.
 
 4. As a User I want to know what level of skills the developer has.
-    - Progress bar names the skills and the level of knowledge the developer has.
+    - About page, progress bar names the skills and the level of knowledge the developer has.
 
 5. As a User I want to be able to navigate my way through the site without using the back key.
     - Navigation bar will bring the user to the required page.
@@ -156,10 +156,10 @@ iphone 5/SE|Good|Good|Good|Good
     - Link has an download icon, as to be clear of its function.
 
 7. As a User I want to be able to see the developers previous projects.
-    - A button clearly labelled to github under the required project.
+    - Project page, a button clearly labelled to github under the required project.
 
 8. As a User I want to be able to see the developers repositories.
-    - A button clearly labelled to github under the required project.
+    - Project page, a button clearly labelled to github under the required project.
 
 9. As a User I want to be able to contact the developer.
     - There is a contact page 
@@ -167,6 +167,7 @@ iphone 5/SE|Good|Good|Good|Good
     - Any missing Information, the form will not submit and the required field will be flagged.
 
 10. As a User I want to be able to go to the developers social media.
+    -Social media links on the footer, with icons.
 
 ### Bugs
 
