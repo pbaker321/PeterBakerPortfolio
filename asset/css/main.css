@@ -133,7 +133,7 @@ h3 {
 
 .project-card {
   box-shadow: var(--bs);
-  transition: 0.5s;
+  transition: .3s ease-in-out;
 }
 
 .project-card:hover {
