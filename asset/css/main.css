@@ -194,6 +194,13 @@ button[type="submit"] {
     grid-row: 2;
     text-align: center;
   }
+
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 600px) {
