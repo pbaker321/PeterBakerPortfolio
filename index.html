@@ -1,236 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="asset/css/main.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_ddok57HlVfFVSV6x3WIks");
+      })();
+    </script>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design | Software Developer</title>
+  </head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="asset/css/main.css">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script type="text/javascript">
-(function() {
-emailjs.init("user_ddok57HlVfFVSV6x3WIks");
-})();
-</script>
-
-    <title>Web Design!</title>
-
-</head>
-
-<body>
+  <body>
     <!-- Navigation -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a href="#home" class="navbar-brand">PB <strong>WEB</strong> Services</a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a href="#home" class="navbar-brand"
+            >PB <strong>WEB</strong> Services</a
+          >
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Intro -->
     <section class="intro" id="home">
-        <h1 class="section-title section-title--intro">
-            PB <strong>WEB</strong> Services
-        </h1>
-        <p class="section-subtitle section-subtitle--intro"><i class="fal fa-less-than"></i>Full Stack Web
-            Developer<i class="fal fa-greater-than"></i></Full>
-        </p>
-        <img src="asset/images/portrait.jpg" alt="" class="intro-img">
+      <h1 class="section-title section-title--intro">
+        PB <strong>WEB</strong> Services
+      </h1>
+      <p class="section-subtitle section-subtitle--intro">
+        <i class="fal fa-less-than"></i>Full Stack Web Developer<i
+          class="fal fa-greater-than"
+        ></i>
+      </p>
+      <img src="asset/images/portrait.jpg" alt="" class="intro-img" />
     </section>
 
     <!-- About -->
     <section class="about-me" id="about">
-        <h2 class="section-title mb-1"><strong>About</strong> Me</h2>
-        <p class="section-subtitle--project"><i class="fal fa-less-than"></i>Hi & Welcome! I'm Pete, a former chef of over 20 years. Now a full stack software developer.<i class="fal fa-greater-than"></i></p>
+      <h2 class="section-title mb-1"><strong>About</strong> Me</h2>
+      <p class="section-subtitle--project">
+        <i class="fal fa-less-than"></i>Hi & Welcome! I'm Pete, a former chef of
+        over 20 years. Now a full stack software developer.<i
+          class="fal fa-greater-than"
+        ></i>
+      </p>
 
-        <div class="about-me-body mt-5">
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="card about about-card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">What We Do</h5>
-                                <hr>
-                                <p class="card-text">
-                                    We build & maintain beautiful, striking websites for small independant businesses.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card about about-card">
-                            <div class="card-body">
-                                <img src="asset/images/laptop.jpg" alt="" class="intro-img">
-                            </div>
-                        </div>
-                    </div>
+      <div class="about-me-body mt-5">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card about about-card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">What We Do</h5>
+                  <hr />
+                  <p class="card-text">
+                    We build & maintain beautiful, striking websites for small
+                    independant businesses.
+                  </p>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-4">
-                        <div class="card about about-card">
-                            <div class="card-body">
-                                <img src="asset/images/desk.jpg" alt="" class="intro-img">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card about about-card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Vision</h5>
-                                <hr>
-                                <p class="card-text">
-                                    I work with our clients to give them the website to help them grow their business.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="card about about-card">
+                <div class="card-body">
+                  <img src="asset/images/laptop.jpg" alt="" class="intro-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="card about about-card">
+                <div class="card-body">
+                  <img src="asset/images/desk.jpg" alt="" class="intro-img" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card about about-card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Vision</h5>
+                  <hr />
+                  <p class="card-text">
+                    I work with our clients to give them the website to help
+                    them grow their business.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Projects -->
     <section class="my-projects" id="projects">
-        <h2 class="section-title section-title--project text-center">My <strong>Projects</strong></h2>
-        <p class="section-subtitle--project"><i class="fal fa-less-than"></i>Some of my work so far<i class="fal fa-greater-than"></i></p>
+      <h2 class="section-title section-title--project text-center">
+        My <strong>Projects</strong>
+      </h2>
+      <p class="section-subtitle--project">
+        <i class="fal fa-less-than"></i>Some of my work so far<i
+          class="fal fa-greater-than"
+        ></i>
+      </p>
 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4 mt-4">
-                    <div class="card project-card">
-                        <a target="_blank" href="https://crafty-bear.herokuapp.com/">
-                            <img src="asset/images/beer.jpg" alt="" class="card-img-top">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Crafty Bear</h5>
-                            <hr>
-                            <p class="card-text">
-                                Full e-commerce site built with the Python framework <strong>Django</strong> using
-                                <strong>Stripe</strong> for the payment method.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-4">
-                    <div class="card project-card">
-                        <a target="_blank" href="http://binge-flix-project.herokuapp.com/">
-                            <img src="asset/images/netflix.jpg" alt="" class="card-img-top">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Binge Flix</h5>
-                            <hr>
-                            <p class="card-text">
-                                Python project using the framework <strong>Flask</strong>. Using
-                                <strong>MongoDB</strong> as the database to review streaming tv shows.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-4">
-                    <div class="card project-card">
-                        <a target="_blank" href="https://pbaker321.github.io/Whats-Cooking/">
-                            <img src="asset/images/recipe.jpg" alt="" class="card-img-top">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Recipe Finder</h5>
-                            <hr>
-                            <p class="card-text">
-                                JavaScript project. Using the <strong>Spoonacular</strong> API. The user can search for
-                                recipes based on keywords and filters.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Card -->
+          <div class="col-md-4 mt-4">
+            <div class="card project-card">
+              <a target="_blank" href="https://crafty-bear.herokuapp.com/">
+                <img src="asset/images/beer.jpg" alt="" class="card-img-top" />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center">Crafty Bear</h5>
+                <hr />
+                <p class="card-text">
+                  Full e-commerce site built with the Python framework
+                  <strong>Django</strong> using <strong>Stripe</strong> for the
+                  payment method.
+                </p>
+              </div>
             </div>
-        </div>
+          </div>
 
+          <!-- Card -->
+          <div class="col-md-4 mt-4">
+            <div class="card project-card">
+              <a
+                target="_blank"
+                href="http://binge-flix-project.herokuapp.com/"
+              >
+                <img
+                  src="asset/images/netflix.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center">Binge Flix</h5>
+                <hr />
+                <p class="card-text">
+                  Python project using the framework <strong>Flask</strong>.
+                  Using <strong>MongoDB</strong> as the database to review
+                  streaming tv shows.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card -->
+          <div class="col-md-4 mt-4">
+            <div class="card project-card">
+              <a
+                target="_blank"
+                href="https://pbaker321.github.io/Whats-Cooking/"
+              >
+                <img
+                  src="asset/images/recipe.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center">Recipe Finder</h5>
+                <hr />
+                <p class="card-text">
+                  JavaScript project. Using the
+                  <strong>Spoonacular</strong> API. The user can search for
+                  recipes based on keywords and filters.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Me -->
     <section class="contact-me" id="contact">
-        <h2 class="section-title text-center"><strong>Contact</strong> Me</h2>
-        <p class="section-subtitle--project"><i class="fal fa-less-than"></i>Got a project in mind?<i class="fal fa-greater-than"></i></p>
-        <div class="center-form">
-            <form onsubmit="return sendMail(this);" method="POST">
-            <input type="text" name="name" class="form-control m-1 p-1" id="fullname" placeholder="Name" required/>
-            <input type="text" name="emailaddress" class="form-control m-1 p-1" id="emailaddress" placeholder="Email" required/>
-            <textarea rows="5" name="projectsummary" class="form-control m-1 p-1" id="projectsummary" placeholder="Project Description" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block m-1 p-1"><i class="fal fa-less-than"></i>Send Project Request<i class="fal fa-greater-than"></i></button>
-            </form>
-        </div>
+      <h2 class="section-title text-center"><strong>Contact</strong> Me</h2>
+      <p class="section-subtitle--project">
+        <i class="fal fa-less-than"></i>Got a project in mind?<i
+          class="fal fa-greater-than"
+        ></i>
+      </p>
+      <!-- Contact Form -->
+      <div class="center-form">
+        <form onsubmit="return sendMail(this);" method="POST">
+          <input
+            type="text"
+            name="name"
+            class="form-control m-1 p-1"
+            id="fullname"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="text"
+            name="emailaddress"
+            class="form-control m-1 p-1"
+            id="emailaddress"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            rows="5"
+            name="projectsummary"
+            class="form-control m-1 p-1"
+            id="projectsummary"
+            placeholder="Project Description"
+            required
+          ></textarea>
+          <button type="submit" class="btn btn-secondary center-block m-1 p-1">
+            <i class="fal fa-less-than"></i>Send Project Request<i
+              class="fal fa-greater-than"
+            ></i>
+          </button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="page-footer font-small special-color-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a
+              class="btn-floating btn-fb so-btn mx-2"
+              target="_blank"
+              href="https://www.facebook.com/"
+            >
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="btn-floating btn-tw so-btn mx-2"
+              target="_blank"
+              href="https://www.twitter.com/"
+            >
+              <i class="fab fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="btn-floating btn-gplus so-btn mx-2"
+              target="_blank"
+              href="https://github.com/pbaker321"
+            >
+              <i class="fab fa-github-alt"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="btn-floating btn-li so-btn mx-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/peter-baker-28aa14149/"
+            >
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+      </div>
+      <!-- Footer Elements -->
 
-        <!-- Footer Elements -->
-        <div class="container">
-
-            <!-- Social buttons -->
-            <ul class="list-unstyled list-inline text-center">
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-fb so-btn mx-2" target="_blank" href="https://www.facebook.com/">
-                        <i class="fab fa-facebook-f"> </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-tw so-btn mx-2" target="_blank" href="https://www.twitter.com/">
-                        <i class="fab fa-twitter"> </i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-gplus so-btn mx-2" target="_blank" href="https://github.com/pbaker321">
-                        <i class="fab fa-github-alt"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-li so-btn mx-2" target="_blank"
-                        href="https://www.linkedin.com/in/peter-baker-28aa14149/">
-                        <i class="fab fa-linkedin-in"> </i>
-                    </a>
-                </li>
-            </ul>
-            <!-- Social buttons -->
-
-        </div>
-        <!-- Footer Elements -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2022 Copyright:
-            <a class=" so-btn" href="https://pbwebservices.com/"> pbwebservices.com</a>
-        </div>
-        <!-- Copyright -->
-
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2022 Copyright:
+        <a class="so-btn" href="https://pbwebservices.com/">
+          pbwebservices.com</a
+        >
+      </div>
+      <!-- Copyright -->
     </footer>
     <!-- Footer -->
 
     <script src="asset/js/sendEmail.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/8954f4859b.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/8954f4859b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
